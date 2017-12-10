@@ -2,6 +2,8 @@ class MaxBinHeap:
     def __init__(self, array = []):
         self.heapList = [0]
         self.currentSize = 0
+        
+    def insertArr(self, array= [])
         for i in array:
             self.insert(i)
 
