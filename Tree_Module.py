@@ -95,9 +95,11 @@ class TreeNode:
 class BinarySearchTree:
 
     #initialization: define the root and the size of the tree (no root and size equal to 0), give a list and it in the Tree
-    def __init__(self, array = []):
+    def __init__(self):
         self.root = None
         self.size = 0
+       
+    def insertArray(self, array = []):
         for i in array:
             self.put(i)
 
